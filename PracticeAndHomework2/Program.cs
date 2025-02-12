@@ -1,4 +1,5 @@
-var builder = WebApplication.CreateBuilder(args); var app = builder.Build();
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
 
 DefaultFilesOptions options = new DefaultFilesOptions();
 options.DefaultFileNames.Add("home.html"); // Let's set up home.html as a default file
