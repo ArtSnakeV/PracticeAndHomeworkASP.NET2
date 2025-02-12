@@ -28,6 +28,7 @@ app.Run(async (context) => {
     {
         // If no file is found, return a 404 response
         context.Response.StatusCode = 404;
+
         await context.Response.WriteAsync("404 Not Found");
     }
 });
